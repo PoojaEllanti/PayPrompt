@@ -4,13 +4,13 @@ import { getAuth } from "firebase/auth";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyAEI0PabgKMoAMvsqK8OOlTRcAZip7Jf20",
-  authDomain: "payprompt-b1ccd.firebaseapp.com",
-  projectId: "payprompt-b1ccd",
-  storageBucket: "payprompt-b1ccd.firebasestorage.app",
-  messagingSenderId: "930597281687",
-  appId: "1:930597281687:web:3e8e2f7c442a5d265caed2",
-  measurementId: "G-SVNJ5JHBY9"
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: ""
 };
 
 const app = initializeApp(firebaseConfig);
