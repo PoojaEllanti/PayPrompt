@@ -1,16 +1,118 @@
-# React + Vite
+# 💧 PayPrompt - Water Can Delivery Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack water can delivery management application that streamlines the ordering and delivery process for customers, administrators, and delivery staff. The application is built using React, Firebase, and Capacitor, providing a responsive web experience with Android app support.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://payprompt-b1ccd.web.app
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 👤 Customer
+- User registration and login
+- View available water cans
+- Place orders
+- Manage subscriptions
+- Wallet management
+- View order history
+- Save delivery address
+- Track delivery status
 
-## Expanding the ESLint configuration
+### 👨‍💼 Admin
+- Dashboard overview
+- Manage customers
+- Manage delivery staff
+- Assign deliveries
+- Monitor orders
+- View payment status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚚 Delivery Staff
+- View assigned deliveries
+- Live location sharing
+- Google Maps navigation
+- Mark orders as delivered
+- View customer delivery details
+
+## 🛠️ Technologies Used
+
+- React (Vite)
+- Firebase Authentication
+- Cloud Firestore
+- Firebase Hosting
+- Tailwind CSS
+- Capacitor (Android)
+- Google Maps
+
+## 📂 Project Structure
+
+```text
+src/
+ ├── components/
+ ├── pages/
+ ├── services/
+ ├── context/
+ ├── config/
+ └── assets/
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/PoojaEllanti/PayPrompt.git
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the project:
+
+```bash
+npm run dev
+```
+
+Build the project:
+
+```bash
+npm run build
+```
+
+## 🚀 Deployment
+
+Hosted using Firebase Hosting.
+
+Deploy with:
+
+```bash
+firebase deploy
+```
+
+## 📱 Android App
+
+The project can also be converted into an Android application using Capacitor.
+
+```bash
+npm run build
+npx cap sync
+npx cap open android
+```
+
+## 📌 Future Enhancements
+
+- Push notifications
+- Online payment gateway
+- Route optimization
+- Delivery analytics
+- Customer feedback and ratings
+
+## 👩‍💻 Developer
+
+**Pooja Ellanti**
+
+## 📄 License
+
+This project is developed for educational and academic purposes.
